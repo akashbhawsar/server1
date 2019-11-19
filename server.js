@@ -11,7 +11,7 @@ app.use(function(req, res, next) {
 app.use(express.json());
 app.use('/student',studentrouter);
 
-app.listen(4000,function(){
+app.listen(5000,function(){
 
     console.log("server restarted");
 });
